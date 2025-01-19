@@ -15,6 +15,7 @@ export default async function Home({
     query: STARTUPS_QUERY,
     params,
   });
+
   const session = await auth();
 
   return (

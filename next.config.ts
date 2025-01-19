@@ -20,10 +20,17 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "**.unsplash.com",
       },
-      // Add other image sources you need
       {
         protocol: "https",
-        hostname: "cdn.sanity.io",
+        hostname: "**.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "avatars.dicebear.com",
+      },
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
       },
     ],
   },
